@@ -29,17 +29,17 @@ type PostType = {
 >
   {
     posts?.slice(0, config.site.pageSize).map((post: PostType) => (
-      <article class="flex flex-col items-start">
-        <div class="rounded-lg block overflow-hidden mb-4">
+      <article class="flex flex-col items-center">
+        <div class="rounded-lg block overflow-hidden mb-4" style="width:250px;height:250px;">
           {post.data.heroImage && (
-            <a href={post.data.link} target="_blank">
-            <figure class="w-512 h-512">
+            <a href={post.data.link} target="_blank" style="width:250px;height:250px;">
+            <figure style="width:250px;height:250px;">
               <Image
                 class="transition duration-300 ease-in-out hover:scale-110"
                 src={post.data.heroImage}
                 alt={post.data.title}
-                width={512}
-                height={512}
+                width={250}
+                height={250}
                 decoding="async"
                 loading="lazy"
               />
