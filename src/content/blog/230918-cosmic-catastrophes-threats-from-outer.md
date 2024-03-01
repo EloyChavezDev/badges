@@ -1,4 +1,5 @@
 ---
+link: 'https://bitacora.eloychavez.dev/blog/240229-linux-fundamentals2/'
 title: 'Cosmic Catastrophes Threats from Outer Space'
 description: 'Delve into the realm of theoretical physics and the possibilities of traversable wormholes and warp drives.'
 pubDate: '2021-09-19T01:22:34.123Z'

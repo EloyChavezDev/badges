@@ -1,4 +1,5 @@
 ---
+link: 'https://bitacora.eloychavez.dev/blog/240229-linux-fundamentals2/'
 title: 'Second post'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jul 22 2022'
