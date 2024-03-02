@@ -25,7 +25,7 @@ type PostType = {
 ---
 
 <div
-  class="mx-auto grid grid-cols-5 md:grid-cols-5 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+  class="mx-auto grid grid-cols-5 md:grid-cols-5 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-6"
 >
   {
     posts?.slice(0, config.site.pageSize).map((post: PostType) => (
@@ -38,8 +38,8 @@ type PostType = {
                 class="transition duration-300 ease-in-out hover:scale-110"
                 src={post.data.heroImage}
                 alt={post.data.title}
-                width={480}
-                height={480}
+                width={500}
+                height={500}
                 decoding="async"
                 loading="lazy"
               />
