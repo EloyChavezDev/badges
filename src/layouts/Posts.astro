@@ -53,10 +53,7 @@ type PostType = {
             class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400">
             {post.data.achievement}
             </a>
-            <a href={post.data.link} target="_blank" 
-            class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400">
-            <FormattedDate date={post.data.pubDate} />
-            </a>
+            <p><FormattedDate date={post.data.pubDate} /></p>
         </div>
       </article>
     ))
